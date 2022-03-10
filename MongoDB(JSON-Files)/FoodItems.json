@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "61c877fdbb3fd9350f8fb003"
+  },
+  "fooditem_id": 1245,
+  "fooditem_name": "pizza",
+  "price": 1450,
+  "quantity": 1,
+  "extras": "none",
+  "passenger_cnic": 14918492502
+},{
+  "_id": {
+    "$oid": "61c878eabb3fd9350f8fb004"
+  },
+  "fooditem_id": 1452,
+  "fooditem_name": "macaroni",
+  "price": 400,
+  "quantity": 1,
+  "extras": "sauce",
+  "passenger_cnic": 78394942942
+},{
+  "_id": {
+    "$oid": "61c87921bb3fd9350f8fb005"
+  },
+  "fooditem_id": 1321,
+  "fooditem_name": "burger",
+  "price": 800,
+  "quantity": 2,
+  "extras": "fries plus sauces",
+  "passenger_cnic": 87592014792
+},{
+  "_id": {
+    "$oid": "61c87957bb3fd9350f8fb006"
+  },
+  "fooditem_id": 1795,
+  "fooditem_name": "soup",
+  "price": 300,
+  "quantity": 1,
+  "extras": "extra addables vegetables and sauce",
+  "passenger_cnic": 92041859215
+}]

@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "61c83d2ae2dbd834811270fd"
+  },
+  "reservation_id": 6742,
+  "seat_no": 67,
+  "class_name": "vip",
+  "passenger_cnic": 1559852852,
+  "flight_id": 712
+},{
+  "_id": {
+    "$oid": "61c83d61e2dbd834811270fe"
+  },
+  "reservation_id": 5421,
+  "seat_no": 81,
+  "class_name": "business",
+  "passenger_cnic": 12345678901,
+  "flight_id": 214
+},{
+  "_id": {
+    "$oid": "61c83d9de2dbd834811270ff"
+  },
+  "reservation_id": 7021,
+  "seat_no": 12,
+  "class_name": "business",
+  "passenger_cnic": 99031459021,
+  "flight_id": 214
+},{
+  "_id": {
+    "$oid": "61c83ddbe2dbd83481127100"
+  },
+  "reservation_id": 1121,
+  "seat_no": 55,
+  "class_name": "first class",
+  "passenger_cnic": 42841500210,
+  "flight_id": 712
+},{
+  "_id": {
+    "$oid": "61c83e4ce2dbd83481127101"
+  },
+  "reservation_id": 5121,
+  "seat_no": 99,
+  "class_name": "economy class",
+  "passenger_cnic": 92041859215,
+  "flight_id": 911
+},{
+  "_id": {
+    "$oid": "61c83e82e2dbd83481127102"
+  },
+  "reservation_id": 4321,
+  "seat_no": 69,
+  "class_name": "vip",
+  "passenger_cnic": 523148959128,
+  "flight_id": 911
+},{
+  "_id": {
+    "$oid": "61c83ed2e2dbd83481127103"
+  },
+  "reservation_id": 9745,
+  "seat_no": 37,
+  "class_name": "economy class",
+  "passenger_cnic": 70418295216,
+  "flight_id": 712
+},{
+  "_id": {
+    "$oid": "61c83f63e2dbd83481127104"
+  },
+  "reservation_id": 1171,
+  "seat_no": 91,
+  "class_name": "vip",
+  "passenger_cnic": 87592014792,
+  "flight_id": 214
+},{
+  "_id": {
+    "$oid": "61c83f94e2dbd83481127105"
+  },
+  "reservation_id": 2171,
+  "seat_no": 53,
+  "class_name": "business",
+  "passenger_cnic": 14918492502,
+  "flight_id": 214
+},{
+  "_id": {
+    "$oid": "61c8519fbb3fd9350f8fafec"
+  },
+  "reservation_id": 4431,
+  "seat_no": 66,
+  "class_name": "business",
+  "passenger_cnic": 78394942942,
+  "flight_id": 214
+}]

@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "61cbfc6c84e4910c13da4398"
+  },
+  "airplane_id": 4567,
+  "airplane_name": "thunder",
+  "seats": 420,
+  "manufacturing_company": "sarcoal",
+  "manufacturing_date": {
+    "$date": "2012-02-28T07:20:40Z"
+  },
+  "airline_id": 65432
+},{
+  "_id": {
+    "$oid": "61cbfcd884e4910c13da4399"
+  },
+  "airplane_id": 3122,
+  "airplane_name": "mg-7",
+  "seats": 420,
+  "manufacturing_company": "miguel",
+  "manufacturing_date": {
+    "$date": "2010-01-28T00:00:00Z"
+  },
+  "airline_id": 12467
+}]

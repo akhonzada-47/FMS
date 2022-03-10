@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "61c82d73e2dbd834811270e3"
+  },
+  "luggage_id": 678,
+  "bag_color": "violet",
+  "count": 1,
+  "weight": 7,
+  "passenger_cnic": 1559852852
+},{
+  "_id": {
+    "$oid": "61c82e12e2dbd834811270e4"
+  },
+  "luggage_id": 123,
+  "bag_color": "red",
+  "count": 2,
+  "weight": 5,
+  "passenger_cnic": 12345678901
+},{
+  "_id": {
+    "$oid": "61c82e58e2dbd834811270e5"
+  },
+  "luggage_id": 914,
+  "bag_color": "yellow",
+  "count": 5,
+  "weight": 12,
+  "passenger_cnic": 99031459021
+},{
+  "_id": {
+    "$oid": "61c82e95e2dbd834811270e6"
+  },
+  "luggage_id": 666,
+  "bag_color": "blue",
+  "count": 3,
+  "weight": 5,
+  "passenger_cnic": 42841500210
+},{
+  "_id": {
+    "$oid": "61c82ecbe2dbd834811270e7"
+  },
+  "luggage_id": 111,
+  "bag_color": "white",
+  "count": 9,
+  "weight": 20,
+  "passenger_cnic": 523148959128
+},{
+  "_id": {
+    "$oid": "61c82f10e2dbd834811270e8"
+  },
+  "luggage_id": 797,
+  "bag_color": "red",
+  "count": 3,
+  "weight": 11,
+  "passenger_cnic": 92041859215
+},{
+  "_id": {
+    "$oid": "61c82f3de2dbd834811270e9"
+  },
+  "luggage_id": 900,
+  "bag_color": "green",
+  "count": 2,
+  "weight": 12,
+  "passenger_cnic": 70418295216
+},{
+  "_id": {
+    "$oid": "61c82f68e2dbd834811270ea"
+  },
+  "luggage_id": 870,
+  "bag_color": "orange",
+  "count": 6,
+  "weight": 19,
+  "passenger_cnic": 87592014792
+},{
+  "_id": {
+    "$oid": "61c82fa0e2dbd834811270eb"
+  },
+  "luggage_id": 711,
+  "bag_color": "black",
+  "count": 10,
+  "weight": 42,
+  "passenger_cnic": 14918492502
+},{
+  "_id": {
+    "$oid": "61c82fede2dbd834811270ec"
+  },
+  "luggage_id": 741,
+  "bag_color": "brown",
+  "count": 1,
+  "weight": 3,
+  "passenger_cnic": 78394942942
+}]

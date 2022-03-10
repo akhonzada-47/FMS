@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "61c8741fbb3fd9350f8fb001"
+  },
+  "pilot_cnic": 67342424111,
+  "pilot_name": " Muhammad Hafeez ",
+  "email": "hafees@gmail.com",
+  "contact_no": 12356,
+  "address": "house no 5 , street 4 ,muslim town, rwp",
+  "airline_id": 9667
+},{
+  "_id": {
+    "$oid": "61c87470bb3fd9350f8fb002"
+  },
+  "pilot_cnic": 89312493692,
+  "pilot_name": " Muhammad Ashfaq ",
+  "email": "ashfaq@gmail.com",
+  "contact_no": 43217,
+  "address": "house no 2 , street 7 ,satellite town, rwp",
+  "airline_id": 4421
+},{
+  "_id": {
+    "$oid": "61c874d9ccfa1b07e9cf9c60"
+  },
+  "pilot_cnic": 32859392135,
+  "pilot_name": " Nasir Khan ",
+  "email": "nasirk@gmail.com",
+  "contact_no": 90432,
+  "address": "house no 1 , street 2 ,phase 4, bahria town ,islamabad",
+  "airline_id": 42124
+},{
+  "_id": {
+    "$oid": "61c87570ccfa1b07e9cf9c61"
+  },
+  "pilot_cnic": 13295929491,
+  "pilot_name": " James Anderson ",
+  "email": "anderson@gmail.com",
+  "contact_no": 9323512,
+  "address": "house no 22 , street 11 ,bakers street, london",
+  "airline_id": 69690
+},{
+  "_id": {
+    "$oid": "61c87616ccfa1b07e9cf9c62"
+  },
+  "pilot_cnic": 55978331317,
+  "pilot_name": " Ghafoor zada ",
+  "email": "ghafoor@gmail.com",
+  "contact_no": 23451,
+  "address": "house no 34 , street 12 ,fazal town, faisalabad",
+  "airline_id": 69690
+}]

@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "61c82502e2dbd834811270d8"
+  },
+  "username": "gm1",
+  "password": "gm1",
+  "cnic": "78394942942"
+},{
+  "_id": {
+    "$oid": "61c8253ee2dbd834811270d9"
+  },
+  "username": "ibrahim",
+  "password": "0978",
+  "cnic": "14918492502"
+},{
+  "_id": {
+    "$oid": "61c82607e2dbd834811270da"
+  },
+  "username": "cheema69",
+  "password": "gta5",
+  "cnic": "87592014792"
+},{
+  "_id": {
+    "$oid": "61c8267be2dbd834811270db"
+  },
+  "username": "afnan012",
+  "password": "012",
+  "cnic": "70418295216 "
+},{
+  "_id": {
+    "$oid": "61c826b9e2dbd834811270dc"
+  },
+  "username": "hu99",
+  "password": "9912",
+  "cnic": "92041859215"
+},{
+  "_id": {
+    "$oid": "61c826f9e2dbd834811270dd"
+  },
+  "username": "afsoos",
+  "password": "naak",
+  "cnic": " 523148959128   "
+},{
+  "_id": {
+    "$oid": "61c82748e2dbd834811270de"
+  },
+  "username": "luke",
+  "password": "emia",
+  "cnic": " 42841500210 "
+},{
+  "_id": {
+    "$oid": "61c8278be2dbd834811270df"
+  },
+  "username": "basit112",
+  "password": "1234567890",
+  "cnic": " 99031459021   "
+},{
+  "_id": {
+    "$oid": "61c827c6e2dbd834811270e0"
+  },
+  "username": "alderon",
+  "password": "zero123",
+  "cnic": "012345678901 "
+},{
+  "_id": {
+    "$oid": "61c82802e2dbd834811270e1"
+  },
+  "username": "yousaf157",
+  "password": "769502",
+  "cnic": "01559852852"
+}]

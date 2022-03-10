@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "61c87aaebb3fd9350f8fb007"
+  },
+  "employee_id": 4536,
+  "employee_name": "mushfiqur rahim ",
+  "address": " house no 4 , street 5 , chadni chowk , chennai , india",
+  "salary": 150000,
+  "designation": " passenger assitant",
+  "email": "rahim@hotmail.com",
+  "phone_no": 76879,
+  "airport_id": 65432
+},{
+  "_id": {
+    "$oid": "61c87b1fbb3fd9350f8fb008"
+  },
+  "employee_id": 6785,
+  "employee_name": "thomas edison ",
+  "address": " house no 5 , street 2 , hashirama district , tokyo , japan",
+  "salary": 120000000,
+  "designation": " senior flight manager",
+  "email": "japanlover69@hotmail.com",
+  "phone_no": 22345,
+  "airport_id": 12467
+},{
+  "_id": {
+    "$oid": "61c87b9dccfa1b07e9cf9c78"
+  },
+  "employee_id": 4124,
+  "employee_name": "Ali Ijaz ",
+  "address": " house no 2 , street 1 , Johrabad , Rawalpindi , Pakistan",
+  "salary": 24440,
+  "designation": "luggage handler",
+  "email": "ali545@hotmail.com",
+  "phone_no": 2113,
+  "airport_id": 12467
+}]

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "61c87ebcbb3fd9350f8fb009"
+  },
+  "airport_id": 65432,
+  "airport_name": "Islamabad International Airport",
+  "city_id": 1566,
+  "contact_no": 63421,
+  "email": "IIA@outlook.com"
+},{
+  "_id": {
+    "$oid": "61c87f1ebb3fd9350f8fb00a"
+  },
+  "airport_id": 12467,
+  "airport_name": "London international airport",
+  "city_id": 3332,
+  "contact_no": 323112,
+  "email": "LondonAA@outlook.com"
+},{
+  "_id": {
+    "$oid": "61c87f5cbb3fd9350f8fb00b"
+  },
+  "airport_id": 36222,
+  "airport_name": "Istanbul International Airport",
+  "city_id": 4312,
+  "contact_no": 3232412,
+  "email": "IstanbulAA@outlook.com"
+}]

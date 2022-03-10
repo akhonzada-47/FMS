@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "61cbfae684e4910c13da4396"
+  },
+  "Airline_id": 65432,
+  "name": "emirates",
+  "email": "emirates@gmail.com",
+  "country": "saudia arabia"
+},{
+  "_id": {
+    "$oid": "61cbfb6e84e4910c13da4397"
+  },
+  "Airline_id": 12467,
+  "name": "Air Blue",
+  "email": "airblue@gmail.com",
+  "country": "pakistan"
+},{
+  "_id": {
+    "$oid": "61cc1f92bbfb5398590bfc25"
+  },
+  "Airline_id": 12345,
+  "name": "aaaa",
+  "email": "tt@YAHOO.com",
+  "country": "india"
+},{
+  "_id": {
+    "$oid": "61cc2142bbfb5398590bfc26"
+  },
+  "Airline_id": 9955,
+  "name": "Ali Ijaz",
+  "email": "jdk@gmail.com",
+  "country": "islamabad"
+},{
+  "_id": {
+    "$oid": "61cc2184bbfb5398590bfc27"
+  },
+  "Airline_id": 4567,
+  "name": "Tehreeq e Insaaf",
+  "email": "jdk@gmail.com",
+  "country": "india"
+},{
+  "_id": {
+    "$oid": "61cc2850bbfb5398590bfc29"
+  },
+  "Airline_id": 12467,
+  "name": "Air Blue ",
+  "email": "blueair@yahoo.com",
+  "country": "England"
+}]

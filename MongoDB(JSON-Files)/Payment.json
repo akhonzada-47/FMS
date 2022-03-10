@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "61c83525e2dbd834811270f1"
+  },
+  "payment_id": 3931,
+  "ticket_price": 5000,
+  "pay_date": {
+    "$date": "2012-12-21T06:01:17.171Z"
+  },
+  "passenger_cnic": 78394942942,
+  "cheque_no": 567
+},{
+  "_id": {
+    "$oid": "61c83582e2dbd834811270f2"
+  },
+  "payment_id": 7893,
+  "ticket_price": 6500,
+  "pay_date": {
+    "$date": "2021-11-16T06:07:03.211Z"
+  },
+  "passenger_cnic": 14918492502,
+  "cheque_no": 999
+},{
+  "_id": {
+    "$oid": "61c8361be2dbd834811270f3"
+  },
+  "payment_id": 8651,
+  "ticket_price": 1900,
+  "pay_date": {
+    "$date": "2020-01-09T11:12:03.611Z"
+  },
+  "passenger_cnic": 87592014792,
+  "cheque_no": 421
+},{
+  "_id": {
+    "$oid": "61c8369ae2dbd834811270f4"
+  },
+  "payment_id": 8651,
+  "ticket_price": 1900,
+  "pay_date": {
+    "$date": "2017-05-09T01:09:03.221Z"
+  },
+  "passenger_cnic": 70418295216,
+  "cheque_no": 117
+},{
+  "_id": {
+    "$oid": "61c8383de2dbd834811270f7"
+  },
+  "payment_id": 3000,
+  "ticket_price": 5100,
+  "pay_date": {
+    "$date": "2021-06-11T01:01:11.111Z"
+  },
+  "passenger_cnic": 523148959128,
+  "cheque_no": 512
+},{
+  "_id": {
+    "$oid": "61c83895e2dbd834811270f8"
+  },
+  "payment_id": 3450,
+  "ticket_price": 6400,
+  "pay_date": {
+    "$date": "2011-11-19T01:07:22.191Z"
+  },
+  "passenger_cnic": 92041859215,
+  "cheque_no": 456
+},{
+  "_id": {
+    "$oid": "61c83967e2dbd834811270f9"
+  },
+  "payment_id": 9812,
+  "ticket_price": 3220,
+  "pay_date": {
+    "$date": "2009-07-21T11:03:11.161Z"
+  },
+  "passenger_cnic": 42841500210,
+  "cheque_no": 877
+},{
+  "_id": {
+    "$oid": "61c83b44e2dbd834811270fa"
+  },
+  "payment_id": 8762,
+  "ticket_price": 10000,
+  "pay_date": {
+    "$date": "2018-07-21T03:07:18.139Z"
+  },
+  "passenger_cnic": 99031459021,
+  "cheque_no": 123
+},{
+  "_id": {
+    "$oid": "61c83b98e2dbd834811270fb"
+  },
+  "payment_id": 3678,
+  "ticket_price": 4000,
+  "pay_date": {
+    "$date": "2008-11-21T03:11:18.129Z"
+  },
+  "passenger_cnic": 12345678901,
+  "cheque_no": 123
+},{
+  "_id": {
+    "$oid": "61c83c37e2dbd834811270fc"
+  },
+  "payment_id": 7778,
+  "ticket_price": 1000,
+  "pay_date": {
+    "$date": "2021-04-13T10:01:18.143Z"
+  },
+  "passenger_cnic": 1559852852,
+  "cheque_no": 993
+}]

@@ -1,0 +1,187 @@
+CREATE TABLE airline (
+    airline_id  INTEGER NOT NULL,
+    name        VARCHAR2(50 CHAR) NOT NULL,
+    contact_no  INTEGER NOT NULL,
+    email       VARCHAR2(100 CHAR) NOT NULL,
+    country     VARCHAR2(50 CHAR) NOT NULL
+);
+
+ALTER TABLE airline ADD CONSTRAINT airline_pk PRIMARY KEY ( airline_id );
+
+
+CREATE TABLE airplanes (
+    airplane_id            INTEGER NOT NULL,
+    airplane_name          VARCHAR2(250 CHAR) NOT NULL,
+    seats                  INTEGER NOT NULL,
+    manufacturing_company  VARCHAR2(250 CHAR) NOT NULL,
+    manufacturing_date     DATE NOT NULL,
+    airline_id             INTEGER NOT NULL
+);
+
+ALTER TABLE airplanes ADD CONSTRAINT airplanes_pk PRIMARY KEY ( airplane_id );
+
+CREATE TABLE airport (
+    airportid    INTEGER NOT NULL,
+    cityid       INTEGER NOT NULL,
+    airportname  VARCHAR2(250 CHAR) NOT NULL,
+    contact_no   INTEGER NOT NULL,
+    email        VARCHAR2(150 CHAR) NOT NULL
+);
+
+ALTER TABLE airport ADD CONSTRAINT airport_pk PRIMARY KEY ( airportid );
+
+
+CREATE TABLE cancellation (
+    cancellation_id    INTEGER NOT NULL,
+    passenger_cnic     INTEGER NOT NULL,
+    cancellation_date  DATE NOT NULL,
+    flight_id          INTEGER NOT NULL
+);
+
+ALTER TABLE cancellation ADD CONSTRAINT cancellation_pk PRIMARY KEY ( cancellation_id );
+
+CREATE TABLE city (
+    cityid     INTEGER NOT NULL,
+    city_name  VARCHAR2(150 CHAR) NOT NULL,
+    country    VARCHAR2(150 CHAR) NOT NULL,
+    zipcode    INTEGER NOT NULL
+);
+
+ALTER TABLE city ADD CONSTRAINT city_pk PRIMARY KEY ( cityid );
+
+CREATE TABLE employees (
+    employee_cnic  INTEGER NOT NULL,
+    employee_name  VARCHAR2(150 CHAR) NOT NULL,
+    address        VARCHAR2(500 CHAR) NOT NULL,
+    salary         INTEGER NOT NULL,
+    designation    VARCHAR2(150 CHAR) NOT NULL,
+    email          VARCHAR2(150 CHAR) NOT NULL,
+    phn_no         INTEGER NOT NULL,
+    airportid      INTEGER NOT NULL
+);
+
+ALTER TABLE employees ADD CONSTRAINT employees_pk PRIMARY KEY ( employee_cnic );
+
+
+CREATE TABLE flight (
+    flight_id      INTEGER NOT NULL,
+    flight_name    VARCHAR2(250 CHAR) NOT NULL,
+    source         VARCHAR2(250 CHAR) NOT NULL,
+    destination    VARCHAR2(250 CHAR) NOT NULL,
+    arrival        DATE NOT NULL,
+    departure      DATE NOT NULL,
+    airline_id     INTEGER NOT NULL,
+    class_name     VARCHAR2(250 CHAR) NOT NULL,
+    flight_status  VARCHAR2(100 CHAR) NOT NULL,
+    airportid      INTEGER NOT NULL
+);
+
+ALTER TABLE flight ADD CONSTRAINT flight_pk PRIMARY KEY ( flight_id );
+
+
+CREATE TABLE fooditems (
+    fooditem_id     INTEGER NOT NULL,
+    fooditem_name   VARCHAR2(250 CHAR) NOT NULL,
+    price           INTEGER NOT NULL,
+    quantity        INTEGER NOT NULL,
+    extras          VARCHAR2(250 CHAR) NOT NULL,
+    passenger_cnic  INTEGER NOT NULL
+);
+
+ALTER TABLE fooditems ADD CONSTRAINT fooditems_pk PRIMARY KEY ( fooditem_id );
+
+
+CREATE TABLE login (
+    username  VARCHAR2(250 CHAR) NOT NULL,
+    password  VARCHAR2(250 CHAR) NOT NULL
+);
+
+ALTER TABLE login ADD CONSTRAINT login_pk PRIMARY KEY ( username );
+
+
+CREATE TABLE luggage (
+    luggage_id      INTEGER NOT NULL,
+    bag_color       VARCHAR2(250 CHAR) NOT NULL,
+    weight          INTEGER NOT NULL,
+    count           INTEGER NOT NULL,
+    passenger_cnic  INTEGER NOT NULL
+);
+
+ALTER TABLE luggage ADD CONSTRAINT luggage_pk PRIMARY KEY ( luggage_id );
+
+
+CREATE TABLE passenger (
+    passenger_cnic       INTEGER NOT NULL,
+    passenger_name       VARCHAR2(250 CHAR) NOT NULL,
+    age                  INTEGER NOT NULL,
+    gender               VARCHAR2(50 CHAR) NOT NULL,
+    nationality          VARCHAR2(250 CHAR) NOT NULL,
+    dob                  DATE NOT NULL,
+    passengercontact_no  INTEGER NOT NULL,
+    flight_id            INTEGER NOT NULL
+);
+
+ALTER TABLE passenger ADD CONSTRAINT passenger_pk PRIMARY KEY ( passenger_cnic );
+
+
+CREATE TABLE payment (
+    payment_id      INTEGER NOT NULL,
+    ticket_price    INTEGER NOT NULL,
+    pay_date        DATE NOT NULL,
+    passenger_cnic  INTEGER NOT NULL,
+    cheque_no       INTEGER NOT NULL
+);
+
+ALTER TABLE payment ADD CONSTRAINT payment_pk PRIMARY KEY ( payment_id );
+
+
+CREATE TABLE pilot (
+    pilot_cnic  INTEGER NOT NULL,
+    pilot_name  VARCHAR2(250 CHAR) NOT NULL,
+    email       VARCHAR2(250 CHAR) NOT NULL,
+    contact_no  INTEGER NOT NULL,
+    address     VARCHAR2(500 CHAR) NOT NULL,
+    airline_id  INTEGER NOT NULL
+);
+
+ALTER TABLE pilot ADD CONSTRAINT pilot_pk PRIMARY KEY ( pilot_cnic );
+
+
+CREATE TABLE reservation (
+    reservation_id  INTEGER NOT NULL,
+    seat_no         INTEGER NOT NULL,
+    class_name      VARCHAR2(100 CHAR) NOT NULL,
+    flight_id       INTEGER NOT NULL,
+    passenger_cnic  INTEGER NOT NULL
+);
+
+ALTER TABLE reservation ADD CONSTRAINT reservation_pk PRIMARY KEY ( reservation_id );
+
+
+ALTER TABLE airplanes ADD CONSTRAINT airline_id FOREIGN KEY (airline_id) REFERENCES airline(airline_id) on DELETE CASCADE;
+
+ALTER TABLE airport ADD CONSTRAINT cityid FOREIGN KEY (cityid) REFERENCES city(cityid) on DELETE CASCADE;
+
+ALTER TABLE employees ADD CONSTRAINT airportid FOREIGN KEY (airportid) REFERENCES airport(airportid) on DELETE CASCADE;
+
+ALTER TABLE cancellation ADD CONSTRAINT flight_id FOREIGN KEY (flight_id) REFERENCES flight(flight_id) on DELETE CASCADE;
+
+ALTER TABLE cancellation ADD CONSTRAINT passenger_CNIC_ibfk FOREIGN KEY (passenger_CNIC) REFERENCES passenger(passenger_CNIC) on DELETE CASCADE;
+
+ALTER TABLE flight ADD CONSTRAINT airportid_fk FOREIGN KEY (airportid) REFERENCES airport(airportid) on DELETE CASCADE;
+
+ALTER TABLE flight ADD CONSTRAINT airplane_id FOREIGN KEY (airplane_id) REFERENCES airplanes(airplane_id) on DELETE CASCADE;
+
+ALTER TABLE fooditems ADD CONSTRAINT passenger_cnic FOREIGN KEY (passenger_cnic) REFERENCES passenger(passenger_cnic) on DELETE CASCADE;
+
+ALTER TABLE luggage ADD CONSTRAINT passenger_cnic_fk FOREIGN KEY (passenger_cnic) REFERENCES passenger(passenger_cnic) on DELETE CASCADE;
+
+ALTER TABLE passenger ADD CONSTRAINT flight_id_fk FOREIGN KEY (flight_id) REFERENCES flight(flight_id) on DELETE CASCADE;
+
+ALTER TABLE payment ADD CONSTRAINT passenger_cnic_ibfk1 FOREIGN KEY (passenger_cnic) REFERENCES passenger(passenger_cnic) on DELETE CASCADE;
+
+ALTER TABLE pilot ADD CONSTRAINT airline_id_fk FOREIGN KEY (airline_id) REFERENCES airline(airline_id) on DELETE CASCADE;
+
+ALTER TABLE reservation ADD CONSTRAINT passenger_cnic_ibfk3 FOREIGN KEY (passenger_cnic) REFERENCES passenger(passenger_cnic) on DELETE CASCADE;
+
+ALTER TABLE reservation ADD CONSTRAINT flight_id_ibfk1 FOREIGN KEY (flight_id) REFERENCES flight(flight_id) on DELETE CASCADE;

@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "61c8864ebb3fd9350f8fb00d"
+  },
+  "cancellation_id": 55321,
+  "passenger_cnic": 12345678901,
+  "flight_id": 214,
+  "cancellation_date": {
+    "$date": "2021-05-22T19:03:23.014Z"
+  }
+}]

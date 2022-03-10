@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "61c8526abb3fd9350f8fafed"
+  },
+  "city_id": 1566,
+  "city_name": "islamabad",
+  "country": "pakistan",
+  "zip_code": 46000
+},{
+  "_id": {
+    "$oid": "61c8528fbb3fd9350f8fafee"
+  },
+  "city_id": 1567,
+  "city_name": "karachi",
+  "country": "pakistan",
+  "zip_code": 42000
+},{
+  "_id": {
+    "$oid": "61c852a4bb3fd9350f8fafef"
+  },
+  "city_id": 1568,
+  "city_name": "faisalabad",
+  "country": "pakistan",
+  "zip_code": 41000
+},{
+  "_id": {
+    "$oid": "61c852ccbb3fd9350f8faff0"
+  },
+  "city_id": 9119,
+  "city_name": "Mumbai",
+  "country": "India",
+  "zip_code": 35600
+},{
+  "_id": {
+    "$oid": "61c852ecbb3fd9350f8faff1"
+  },
+  "city_id": 9650,
+  "city_name": "Chennai",
+  "country": "India",
+  "zip_code": 65000
+},{
+  "_id": {
+    "$oid": "61c8530abb3fd9350f8faff2"
+  },
+  "city_id": 4312,
+  "city_name": "Istanbul",
+  "country": "Turkey",
+  "zip_code": 12000
+},{
+  "_id": {
+    "$oid": "61c8533cbb3fd9350f8faff3"
+  },
+  "city_id": 3332,
+  "city_name": "London",
+  "country": "England",
+  "zip_code": 70000
+},{
+  "_id": {
+    "$oid": "61c85358bb3fd9350f8faff4"
+  },
+  "city_id": 5600,
+  "city_name": "Paris",
+  "country": "France",
+  "zip_code": 57000
+},{
+  "_id": {
+    "$oid": "61c85380bb3fd9350f8faff5"
+  },
+  "city_id": 1246,
+  "city_name": "Rawalpindi",
+  "country": "Pakistan",
+  "zip_code": 45000
+},{
+  "_id": {
+    "$oid": "61c853a6bb3fd9350f8faff6"
+  },
+  "city_id": 3400,
+  "city_name": "Sydney",
+  "country": "Australia",
+  "zip_code": 61000
+}]

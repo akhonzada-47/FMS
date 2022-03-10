@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "61c86bb8bb3fd9350f8faff7"
+  },
+  "passenger_cnic": 78394942942,
+  "passenger_name": "Ghullam Muhammad Akonzada",
+  "age": 20,
+  "gender": "male",
+  "nationality": "pakistani",
+  "DOB": {
+    "$date": "2000-12-19T06:01:17.171Z"
+  },
+  "flight_id": " 612  "
+},{
+  "_id": {
+    "$oid": "61c86c36bb3fd9350f8faff8"
+  },
+  "passenger_cnic": 14918492502,
+  "passenger_name": "Ibrahim Abdullah",
+  "age": 20,
+  "gender": "male",
+  "nationality": "pakistani",
+  "DOB": {
+    "$date": "2000-02-29T06:05:17.171Z"
+  },
+  "flight_id": " 413  "
+},{
+  "_id": {
+    "$oid": "61c86cfcbb3fd9350f8faff9"
+  },
+  "passenger_cnic": 87592014792,
+  "passenger_name": "Cheema Ali",
+  "age": 45,
+  "gender": "male",
+  "nationality": "arab",
+  "DOB": {
+    "$date": "1976-05-05T06:05:17.171Z"
+  },
+  "flight_id": " 324  "
+},{
+  "_id": {
+    "$oid": "61c86d3cbb3fd9350f8faffa"
+  },
+  "passenger_cnic": 70418295216,
+  "passenger_name": "afnan malik",
+  "age": 21,
+  "gender": "male",
+  "nationality": "pakistani",
+  "DOB": {
+    "$date": "2000-03-17T06:05:17.171Z"
+  },
+  "flight_id": " 412  "
+},{
+  "_id": {
+    "$oid": "61c86d93bb3fd9350f8faffb"
+  },
+  "passenger_cnic": 92041859215,
+  "passenger_name": "humaira saud",
+  "age": 21,
+  "gender": "female",
+  "nationality": "indian",
+  "DOB": {
+    "$date": "2000-04-01T06:02:14.191Z"
+  },
+  "flight_id": " 617  "
+},{
+  "_id": {
+    "$oid": "61c86e11bb3fd9350f8faffc"
+  },
+  "passenger_cnic": 523148959128,
+  "passenger_name": "Ayesha gohar",
+  "age": 29,
+  "gender": "female",
+  "nationality": "indian",
+  "DOB": {
+    "$date": "1992-09-22T08:05:17.195Z"
+  },
+  "flight_id": " 912  "
+},{
+  "_id": {
+    "$oid": "61c86f3cbb3fd9350f8faffd"
+  },
+  "passenger_cnic": 42841500210,
+  "passenger_name": "Martin Luke",
+  "age": 30,
+  "gender": "bisexual",
+  "nationality": "english",
+  "DOB": {
+    "$date": "1991-11-02T05:04:13.191Z"
+  },
+  "flight_id": " 145  "
+},{
+  "_id": {
+    "$oid": "61c86faabb3fd9350f8faffe"
+  },
+  "passenger_cnic": 12345678901,
+  "passenger_name": "Ateeb Rizwan",
+  "age": 21,
+  "gender": "male",
+  "nationality": "turkish",
+  "DOB": {
+    "$date": "2000-03-08T11:11:12.151Z"
+  },
+  "flight_id": "  612 "
+},{
+  "_id": {
+    "$oid": "61c870d5bb3fd9350f8fafff"
+  },
+  "passenger_cnic": 99031459021,
+  "passenger_name": "Basit Raza",
+  "age": 45,
+  "gender": "male",
+  "nationality": "pakistani",
+  "DOB": {
+    "$date": "1976-11-01T02:06:04.142Z"
+  },
+  "flight_id": " 413  "
+},{
+  "_id": {
+    "$oid": "61c871bfbb3fd9350f8fb000"
+  },
+  "passenger_cnic": 1559852852,
+  "passenger_name": "yousaf raza gillani",
+  "age": 21,
+  "gender": "male",
+  "nationality": "pakistani",
+  "DOB": {
+    "$date": "2000-05-03T04:07:09.121Z"
+  },
+  "flight_id": "  145 "
+}]

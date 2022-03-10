@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "61c884b3bb3fd9350f8fb00c"
+  },
+  "flight_id": 612,
+  "flight_name": "  sydney 1144  ",
+  "source": " islamabad ",
+  "destination": "sydney",
+  "departure": {
+    "$date": "2021-12-19T06:01:17.171Z"
+  },
+  "airline_id": 42214,
+  "class_name": "business",
+  "flight_status": "pending",
+  "airport_id": 65432,
+  "arrival": {
+    "$date": "2021-12-19T19:04:30Z"
+  }
+}]
